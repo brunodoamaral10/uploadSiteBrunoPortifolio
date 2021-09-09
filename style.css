@@ -1,0 +1,71 @@
+
+
+.portifolio .galeria-modal{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.288);
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 4%;
+    visibility: hidden;
+    z-index: 5;
+}
+
+.portifolio .galeria-modal img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transform: scale(0);
+    transition: transform 0.5s ease-in-out;
+}
+
+section {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.portifolio .galeria {
+    width: 100%;
+    padding: 2%;
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: 30vh;
+}
+
+.portifolio .galeria div.single-galeria {
+    background-color: red;
+    border-radius: 5px;
+    margin: 0.5vw;
+    overflow: hidden;
+}
+
+.portifolio .h-2 {
+    grid-row: span 2;
+}
+
+.portifolio .w-2 {
+    grid-column: span 2;
+}
+
+.portifolio .galeria div.single-galeria img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.25s ease-in-out;
+}
+
+.portifolio .galeria div.single-galeria img:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 764px){
+    .portifolio .galeria {
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 15vh;
+    }
+}
+
