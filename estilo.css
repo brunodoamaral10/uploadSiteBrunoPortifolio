@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2? family = Poppins: wght @ 400; 500; 600; 700 & family = Ubuntu + Mono: ital, wght @ 0,400; 1,700 & display = troca');
 
 *{
@@ -40,6 +41,7 @@ body {
     /*background-color: none;*/
     background-color: #121721;
     border-bottom: solid #1b202a 1px;
+    text-shadow: 0.1em 0.1em 0.2em white;
 }
 
 .navbar .max-width {
@@ -128,7 +130,7 @@ section {
 .top {
     color: #fff;
     display: flex;
-    background: url('../siteSvco/imagens/topo.jpg') no-repeat center;
+    background: url('../SiteBrunoPortifolio/imagens/topo.jpg') no-repeat center;
     height: 100vh;
     min-height: 500px;
     background-attachment: fixed;
@@ -144,17 +146,20 @@ section {
 .top .top-content .text-1 {
     font-size: 25px;
     margin-top: 100px;
+    text-shadow: 0.1em 0.1em 0.2em black;
 }
 
 .top .top-content .text-2 {
     font-size: 55px;
     font-weight: 400;
     margin-left: -3px;
+    text-shadow: 0.1em 0.1em 0.2em black;
 }
 
 .top .top-content .text-3 {
     font-size: 32px;
     margin: 5px 0;
+    text-shadow: 0.1em 0.1em 0.2em black;
 }
 
 .top .top-content a {
@@ -178,6 +183,7 @@ section {
     color: #fff;
     background-color: #0c0f16;
     font-family: 'Poppins', sans-serif;
+    text-shadow: 0.1em 0.1em 0.2em white;
 }
 
 .tecnologies .title {
@@ -267,6 +273,7 @@ section {
     color: #fff;
     background-color: #547ec7;
     font-family: 'Poppins', sans-serif;
+    text-shadow: 0.1em 0.1em 0.2em white;
 }
 .portifolio .title {
     text-align: center;
@@ -362,6 +369,7 @@ section {
      background-color: #151921;
      font-family: 'Poppins', sans-serif;
      padding-bottom: 50px;
+     text-shadow: 0.1em 0.1em 0.2em white;
  }
 
  .contact .title {
@@ -523,3 +531,4 @@ footer span a {
 footer span a:hover {
     color: white;
 }
+
